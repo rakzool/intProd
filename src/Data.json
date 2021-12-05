@@ -1,0 +1,50 @@
+[
+  {
+    "contactname": "Sara Rose",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  },
+  {
+    "contactname": "Erin Sanchez",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  },
+  {
+    "contactname": "Jack Edwad",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  },
+  {
+    "contactname": "Sara Rose , Erin Sa...",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": true,
+    "chats": {}
+  },
+  {
+    "contactname": "Brian Holland",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  },
+  {
+    "contactname": "Ryan Walker",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  },
+  {
+    "contactname": "Olivia Dunn",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  },
+  {
+    "contactname": "Logan Bruke",
+    "image": "https://www.w3schools.com/howto/img_avatar2.png",
+    "isGroup": false,
+    "chats": {}
+  }
+]

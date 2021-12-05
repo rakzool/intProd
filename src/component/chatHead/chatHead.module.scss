@@ -1,0 +1,31 @@
+.chatHead {
+  padding: 0.8rem;
+  margin-bottom: 0.4rem;
+  min-height: 6.5vh;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 20px -5px,
+    rgba(0, 0, 0, 0.04) 0px 5px 5px -5px;
+  text-align: center;
+  font-weight: bolder;
+
+  .headTitle {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+}
+.add {
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 11%;
+  left: 56%;
+}
+
+.add:hover {
+  transition: 200ms ease-in;
+  transform: scale(1.1);
+}
