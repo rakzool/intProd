@@ -4,7 +4,7 @@ import Data from "../../Data.json";
 
 import { FiChevronRight } from "react-icons/fi";
 
-import Inner from "../Inner/inner.jsx";
+// import Inner from "../Inner/inner.jsx";
 
 export default function Chats() {
   const [open, setOpen] = useState(false);
@@ -48,13 +48,13 @@ export default function Chats() {
           );
         })}
       </div>
-      <Inner
+      {/* <Inner
         dialogOpen={open}
         handleClick={handleClick}
         name={chatData.name}
         image={chatData.image}
         chats={chatData.chats}
-      />
+      /> */}
     </div>
   );
 }

@@ -29,7 +29,7 @@ function SimpleDialog(props) {
   };
 
   return (
-    <Dialog onClose={handleClick} open={open}>
+    <Dialog onClose={handleClose} open={open}>
       <DialogTitle>Set backup account</DialogTitle>
       <List sx={{ pt: 0 }}>
         {emails.map((email) => (
@@ -74,14 +74,14 @@ export default function Inner({ dialogOpen, handleClick, name, image, chats }) {
   const [open, setOpen] = React.useState(dialogOpen);
   const [selectedValue, setSelectedValue] = React.useState(emails[1]);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  // const handleClickOpen = () => {
+  //   setOpen(true);
+  // };
 
-  const handleClose = (value) => {
-    setOpen(false);
-    setSelectedValue(value);
-  };
+  // const handleClose = (value) => {
+  //   setOpen(false);
+  //   setSelectedValue(value);
+  // };
 
   return (
     <div>
